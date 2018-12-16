@@ -108,5 +108,5 @@ void main()
         }
     }
   }
-    printf("\n %d",big);
+    printf("\n%d\t",big);
 }
