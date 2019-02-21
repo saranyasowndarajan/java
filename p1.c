@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include<string.h>
 int main(void) {
   char a[10][10],b[10][10];
   int i,j,count=0,n;
@@ -8,9 +8,10 @@ int main(void) {
   {
     scanf("%s",a[i]);
   }
+  int size=strlen(a[0]);
   for(i=0;i<n;i++)
   {
-    for(j=0;j<n;j++)
+    for(j=0;j<size;j++)
     {
       if(a[i][j]==a[i+1][j])
     {
@@ -19,7 +20,6 @@ int main(void) {
     }
   }
   }
- // printf("%d",count);
-  printf("%s",b);
+   printf("%s",b);
   return 0;
 }
