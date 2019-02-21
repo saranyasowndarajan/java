@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void) {
  char ch;
 int flag=0;
