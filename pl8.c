@@ -22,6 +22,7 @@ int main()
         }
        else if(a[i]=='\t')
         {
+          a[i + 1] = toupper(a[i + 1]); 
             continue;
         }
         else
