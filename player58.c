@@ -1,5 +1,6 @@
-#include <stdio.h>
+##include <stdio.h>
 #include <string.h>
+#include<stdlib.h>
 int counting(char * str, char * sub);
 int main()
 {
@@ -24,7 +25,7 @@ int counting(char * str, char * sub)
     for(i=0; i <= s1-s2; i++)
     {
         flag = 1;
-        for(j=0; j<searchLen; j++)
+        for(j=0; j<s2; j++)
         {
             if(str[i + j] != sub[j])
             {
