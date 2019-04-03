@@ -12,9 +12,9 @@ scanf("%s",p);
     { 
         if (p[l++] != p[h--]) 
         { 
-            printf("%s is Not Palindrome", p); 
+            printf("yes"); 
          } 
     } 
-    printf("%s is palindrome", p); 
+    printf("no"); 
 } 
  
