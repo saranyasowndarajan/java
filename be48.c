@@ -9,7 +9,7 @@ int main()
 		scanf("%d",&a[i]);
 		sum=sum+a[i];
 	}
-	printf("\n%d",sum);
+	printf("\n%d",sum/n);
 		 	return 0;
 }
  
