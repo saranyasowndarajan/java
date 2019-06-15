@@ -1,9 +1,7 @@
 #include <stdio.h>
  int main()
-{
-   int n, t, sum = 0, remainder, count=0,i,j,a[10],b[10],p[10],z;
-   // printf("Enter an integer\n");
-   scanf("%d", &n);
+ {   int n, t, sum = 0, remainder, count=0,i,j,a[10],b[10],p[10],z;
+      scanf("%d", &n);
     t = n;
     i=0;
     while (t != 0)
@@ -38,12 +36,10 @@
    for(i=0;i<count;i++)
    {
       //  printf("\n %d\t ",p[i]);
-   }
-   sum=0;
+   }   sum=0;
    for(i=0;i<count;i++)
    {
        sum=sum+p[i];
-   }
-    printf("%d\n",sum);
+   }    printf("%d\n",sum);
     return 0;
 }
