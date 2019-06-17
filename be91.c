@@ -11,7 +11,7 @@ int main()
     volume = width * length * height;
     space_diagonal = sqrt(width * width + length * length +
     height * height);
-    printf("Surface area of cuboids is: %.3f", surfacearea);
-    printf("\n Volume of cuboids is : %.3f", volume);
+    printf("%.3f", surfacearea);
+    printf("\n %.3f", volume);
       return 0;
 }
